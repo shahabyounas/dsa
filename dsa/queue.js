@@ -1,23 +1,31 @@
-class Node {
-    constructor(value){
-        this.value = value;
-        this.next = null;
-    }
-}
-
+const LinkedList = require("./LinkedList");
 
 class Queue {
     constructor(){
-        this.first = null;
-        this.last = null;
-        this.size = null;
+        this.list = new LinkedList()
     }
 
-
-    add(val){
-        let node = new Node(val);
-        
+    isEmpty(){
+        return !this.list.head
     }
+
+    peek(){
+        if(this.isEmpty()){
+            return null
+        }
+        return this.list.head.value
+    }
+
+    enQueue(value){
+        this.list.append(value)
+    }
+
+    deQueue(){
+        const deletedNode = this.list.deleteHead()
+
+        return deletedNode ? deletedNode.value : null
+    }
+
 }
 
 module.exports = Queue
