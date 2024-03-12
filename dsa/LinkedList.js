@@ -102,6 +102,48 @@ class LinkedList {
       }
     
     }
+
+    deleteHead(){
+      if(!this.head){
+        return this
+      }
+
+      const current = this.head
+      if(current.next){
+        this.head = current.next
+      }else {
+        this.head = null
+      }
+      return current
+    }
+
+    toArray(){
+      const arr = []
+      const current = this.head 
+
+      while(current){
+        arr.push(current.value)
+        current = current.next
+      }
+      return arr
+    }
+
+    reverse(){
+      let current = this.head
+      let prvNode = null
+      let nextNode = null
+
+      while(current){
+        nextNode = current.next
+        current.next = prvNode
+
+        prvNode = current
+        current = nextNode
+      }
+
+      this.head = prvNode
+      return this
+    }
   }
 
 
