@@ -19,4 +19,5 @@ test('targetSumOpz empty array return [-1,-1]', () => {
     const arr = [];
     const target = 6
     expect(targetSum(arr, target)).toEqual([-1,-1])
+    expect(targetSum(arr, target)).not.toEqual([1,1])
 })
