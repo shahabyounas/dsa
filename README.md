@@ -7,6 +7,7 @@ This repo includes the implementation of basic data structure and algorithm impl
 - [Fast and Slow Pointers](./dsa/patterns/fastAndSlowPointers)
 
 ## Two Pointers Pattern
+- [Compare String with backspaces](./dsa/patterns/twoPointers/compareStringsWithBackspaces.js)
 - [Dutch National Flag sort list](./dsa/patterns/twoPointers/dutchNationalFlag.js)
 - [Non-Duplicate Numbers](./dsa/patterns/twoPointers/nonDuplicateNums.js)
 - [Find Quadruplets sum equal to target](./dsa/patterns/twoPointers/quadrupletSumToTarget.js)
