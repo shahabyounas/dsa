@@ -9,6 +9,7 @@ This repo includes the implementation of basic data structure and algorithm impl
 ## Two Pointers Pattern
 - [Non-Duplicate Numbers](./dsa/patterns/twoPointers/nonDuplicateNums.js)
 - [Square and sort the sorted array](./dsa/patterns/twoPointers/squareSortedArr.js)
+- [Find Subarrays product less than target](./dsa/patterns/twoPointers/subarraysProductLessThanTarget.js)
 - [Triplet sum close to target](./dsa/patterns/twoPointers/tripletSumCloseToTarget.js)
 - [Triplet Sum to Zero](./dsa/patterns/twoPointers/tripletSumToZero.js)
 - [Triplets Sum smaller than target](./dsa/patterns/twoPointers/tripletWithSmallerSum.js)
