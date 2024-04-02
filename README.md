@@ -4,6 +4,7 @@ This repo includes the implementation of basic data structure and algorithm impl
 
 # Programming coding patterns
 - [Two Pointers](./dsa/patterns/twoPointers)
+- [Fast and Slow Pointers](./dsa/patterns/fastAndSlowPointers)
 
 ## Two Pointers Pattern
 - [Non-Duplicate Numbers](./dsa/patterns/twoPointers/nonDuplicateNums.js)
