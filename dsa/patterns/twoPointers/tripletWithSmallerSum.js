@@ -1,3 +1,11 @@
+/**
+ * Find the triplets with sum smaller than given targets
+ * @param {Array} arr 
+ * @param {Number} target 
+ * @returns {Number} count
+ */
+
+
 function tripletWithSmallerSum(arr, target){
     let count = 0
     arr.sort((a, b) =>  a - b)
